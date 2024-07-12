@@ -20,22 +20,43 @@
 .DetailsForm{
     border: 1px solid transparent;
     width: 70%;
-    padding: 30px;
+    padding: 10px;
 }
 
+fieldset{
+    color: rgb(3, 173, 240);
+    width: 50%;
+    margin-left: 150px;
+    border: none;
+    border:1px solid rgb(3, 173, 240);
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+fieldset i{
+    margin-top:17px ;
+}
+
+fieldset p{
+    padding-left: 10px;
+}
 .icon{
     display:flex;
 }
-.login{
-    color: grey;
-}
+
 .DetailsForm p{
     color: black;
 }
 
 .DetailsForm h1{
     text-align: center;
-    color: blue;
+    color: rgb(3, 173, 240);
     font-size: 50px;
 }
 
@@ -44,8 +65,8 @@
 }
 
 .log{
-    margin-left: 250px;
-    background-color: black;
+    margin-left: 270px;
+    background-color: rgb(3, 173, 240);
     color: white;
     padding: 10px;
     width: 100px;
@@ -57,13 +78,18 @@
     -o-border-radius: 10px;
 }
 
+hr{
+    margin: 15px 130px;
+    width: 60%;
+}
+
 .forget{
-    margin-left: 350px;
+    margin-left: 300px;
     color: grey;
 }
 
 .butt{
-    margin-left: 200px;
+    margin-left: 215px;
 }
 
 .btn1,.btn2,.btn3{
@@ -83,3 +109,4 @@
     display: flex;
     gap: 300px;
 }
+
