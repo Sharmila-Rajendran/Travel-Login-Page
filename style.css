@@ -46,13 +46,21 @@ fieldset i{
 fieldset p{
     padding-left: 10px;
 }
+
+.text p{
+    color: grey;
+}
 .icon{
     display:flex;
 }
 
-.DetailsForm p{
+.icon p{
     color: black;
 }
+
+/* .DetailsForm p{
+    color: black;
+} */
 
 .DetailsForm h1{
     text-align: center;
