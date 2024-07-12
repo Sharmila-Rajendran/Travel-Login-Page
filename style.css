@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+}
+
+.image{
+    background-image: url(Asserts/Untitled\ design\ \(16\).png);
+    background-size: cover;
+}
+
+.image img{
+    width: 750px;
+    height: 900px;
+}
+
+.image h1,p{
+    text-align: center;
+    color: white;
+}
+
+.DetailsForm{
+    border: 1px solid transparent;
+    width: 70%;
+    padding: 30px;
+}
+
+.icon{
+    display:flex;
+}
+.login{
+    color: grey;
+}
+.DetailsForm p{
+    color: black;
+}
+
+.DetailsForm h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+}
+
+.aero{
+    margin-left: 500px;
+}
+
+.log{
+    margin-left: 250px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.forget{
+    margin-left: 350px;
+    color: grey;
+}
+
+.butt{
+    margin-left: 200px;
+}
+
+.btn1,.btn2,.btn3{
+    background-color: rgb(170, 227, 208);
+    padding: 10px;
+    width: 70px;
+    border: none;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    font-size: 20px;
+}
+
+.img{
+    display: flex;
+    gap: 300px;
+}
