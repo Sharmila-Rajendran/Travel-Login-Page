@@ -2,14 +2,13 @@
     display: flex;
 }
 
-.image{
-    background-image: url(Asserts/Untitled\ design\ \(16\).png);
-    background-size: cover;
-}
-
-.image img{
+.Travelimg{
     width: 750px;
-    height: 900px;
+    height: 750px;
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    top: 0px;
 }
 
 .image h1,p{
@@ -55,7 +54,7 @@ fieldset p{
 }
 
 .icon p{
-    color: black;
+    color: grey;
 }
 
 /* .DetailsForm p{
@@ -73,7 +72,7 @@ fieldset p{
 }
 
 .log{
-    margin-left: 270px;
+    margin-left: 300px;
     background-color: rgb(3, 173, 240);
     color: white;
     padding: 10px;
@@ -97,7 +96,7 @@ hr{
 }
 
 .butt{
-    margin-left: 215px;
+    margin-left: 240px;
 }
 
 .btn1,.btn2,.btn3{
